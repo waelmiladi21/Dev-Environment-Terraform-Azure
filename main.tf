@@ -13,7 +13,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "mtc-rg" {
   name     = "mtc-resources"
-  location = "East Us"
+  location = "francecentral"
   tags = {
     environment = "dev"
   }
